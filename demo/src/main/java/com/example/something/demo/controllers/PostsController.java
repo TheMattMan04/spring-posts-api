@@ -20,12 +20,12 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
-public class TestController {
+public class PostsController {
     private final PostService postService;
-    private final Logger logger = LoggerFactory.getLogger(TestController.class);
+    private final Logger logger = LoggerFactory.getLogger(PostsController.class);
     private final ObjectMapper objectMapper = new ObjectMapper();
 
-    public TestController(PostService postService) {
+    public PostsController(PostService postService) {
         this.postService = postService;
     }
 
