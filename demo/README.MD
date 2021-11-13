@@ -1,0 +1,1 @@
+Spring Boot application that fetches posts and runs in a Docker container.
